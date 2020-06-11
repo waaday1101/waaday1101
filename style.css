@@ -1,0 +1,76 @@
+/*-----body main edits----------*/
+body {
+  margin: 50px;
+  background-color: yellow;
+}
+
+header {
+  height: 150px;
+  background-color: black;
+}
+
+article {
+  margin-left: auto;
+  margin-right: auto;
+  width: 20em;
+  display: block;
+}
+
+footer {
+  height: 50px;
+  background-color: black;
+  color: yellow;
+  text-align: center;
+  padding: 45px;
+}
+/*-----text edits-----*/
+.logo {
+  font-family: 'Libre Barcode 39 Extended Text';
+  font-size: 48px;
+  color: yellow;
+  text-align: center;
+  padding: 70px;
+}
+
+.saying {
+  font-family: 'kristi';
+  font-size: 32px;
+  color: black;
+  text-align: center;
+
+}
+
+h1, h2{
+  font-family: 'Arial', Arial, Helvetica, sans-serif;
+  color: black;
+  text-align: center;
+  margin: 50px, 50px, 50px, 50px;
+  padding: 20px;
+}
+
+stars::before { 
+  content: "********************************************************";
+  padding-bottom: auto; 
+}
+ 
+stars::after {
+  content: "*********************************************************";
+}
+
+/*---image style--------------*/
+img {
+  width: 400px;
+  height: 400px;
+  padding-bottom: 50px;
+}
+
+.img-circle {
+  border-radius: 50%;
+  margin: 100px auto 0 auto;
+  display: block;
+}
+
+/*-----link edits----*/
+a {
+  color: yellow;
+}
