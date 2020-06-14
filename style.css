@@ -4,7 +4,7 @@ body {
 }
 
 header {
-  height: 225px;
+  height: 250px;
   background-color: black;
 }
 
@@ -32,12 +32,20 @@ footer {
   padding: 20px;
   line-height: .2;
 }
-
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  text-align: center;
+  font-size: 40px;
+  padding-top: 30px;
+}
 .saying {
   font-family: 'kristi';
   font-size: 40px;
   color: black;
   text-align: center;
+  padding-block-end: 20px;
+  padding-block-start: 20px;
 }
 
 hr {
@@ -47,11 +55,19 @@ hr {
 
 h2 {
   font-family: Arial, Helvetica, sans-serif;
-  color: black;
+  color: yellow;
   text-align: center;
-  font-size: 18;
+  font-size: 18; 
 }
-
+.defaultTextBox {
+  padding-inline-start: 10px
+  padding-inline-end: 10px;
+  height: 75px;
+  position: auto;
+  left: 0;
+  outline: none;
+  background-color: black;
+}
 h3, a {
   font-family: Arial, Helvetica, sans-serif;
   color: yellow;
@@ -59,13 +75,13 @@ h3, a {
   font-size: 16;
 }
 
-stars::before { 
-  content: "***";
-  padding-bottom: auto; 
+
+
+q::before { 
+  content: " " ";
 }
- 
-stars::after {
-  content: "***";
+ q::after {
+  content: " " ";
 }
 
 /*---image style--------------*/
@@ -76,7 +92,7 @@ img {
 
 .img-circle {
   border-radius: 50%;
-  margin: 100px auto 0 auto;
+  margin: 50px auto 0 auto;
   display: block;
   border: 10px solid black;
 }
@@ -86,7 +102,6 @@ ol, ul {
   font-family: 'Arial', Arial, Helvetica, sans-serif;
   color: black;
   text-align: left;
-  
 }
 /*-----link edits----*/
 a:link { text-decoration: none; }
