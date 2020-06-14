@@ -1,11 +1,10 @@
 /*-----body main edits----------*/
 body {
-  margin: 50px;
   background-color: yellow;
 }
 
 header {
-  height: 150px;
+  height: 225px;
   background-color: black;
 }
 
@@ -13,7 +12,7 @@ article {
   margin-left: auto;
   margin-right: auto;
   width: 20em;
-  display: block;
+  
 }
 
 footer {
@@ -23,29 +22,41 @@ footer {
   text-align: center;
   padding: 45px;
 }
+
 /*-----text edits-----*/
 .logo {
   font-family: 'Libre Barcode 39 Extended Text';
   font-size: 48px;
   color: yellow;
   text-align: center;
-  padding: 70px;
+  padding: 20px;
+  line-height: .2;
 }
 
 .saying {
   font-family: 'kristi';
-  font-size: 32px;
+  font-size: 40px;
   color: black;
   text-align: center;
-
 }
 
-h1, h2{
-  font-family: 'Arial', Arial, Helvetica, sans-serif;
+hr {
+  border-top: 5px dashed black;
+  padding: 20, 20;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
   color: black;
   text-align: center;
-  margin: 50px, 50px, 50px, 50px;
-  padding: 20px;
+  font-size: 18;
+}
+
+h3, a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: yellow;
+  text-align: center;
+  font-size: 16;
 }
 
 stars::before { 
@@ -61,16 +72,29 @@ stars::after {
 img {
   width: 400px;
   height: 400px;
-  padding-bottom: 50px;
 }
 
 .img-circle {
   border-radius: 50%;
   margin: 100px auto 0 auto;
   display: block;
+  border: 10px solid black;
 }
+/*--ol Ul--*/
 
+ol, ul {
+  font-family: 'Arial', Arial, Helvetica, sans-serif;
+  color: black;
+  text-align: left;
+  
+}
 /*-----link edits----*/
-a {
-  color: yellow;
+a:link { text-decoration: none; }
+a:link { color: yellow; }
+a:visited { color: yellow; }
+a:hover { color: gray; }
+a:active { color: lightgray; }
+a:hover {
+	text-decoration: underline;
+  color: darkslategrey;
 }
