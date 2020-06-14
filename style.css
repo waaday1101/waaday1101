@@ -9,9 +9,6 @@ header {
 }
 
 article {
-  margin-left: auto;
-  margin-right: auto;
-  width: 20em;
 }
 
 footer {
@@ -105,6 +102,7 @@ ol, ul, li {
   color: black;
   text-align: left;
   font-size: 14px;
+  
 }
 /*-----link edits----*/
 a:link { text-decoration: none; }
